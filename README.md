@@ -45,6 +45,22 @@ Happy coding :)
 CP clone (CLI)
 --------------
 
+- It should be invoked with the command 'mycp'.
+- It should take two inputs:
+  - source, which is a file you want to copy
+  - destination, which is the destination file name where you want to copy the
+    file
+- It should copy the file in source to the file in destination when invoked
+  correctly
+- It should fail copying if the paths to source or destination cannot be
+  resolved.
+- It should fail copying if source is a directory.
+- It should allow an optional flag -r.
+- It should regard source and destination as directories if the flag -r is set.
+- It should recursively copy files from source to destination if the flag -r is
+  set.
+- It should fail copying if source or destination is a file and the flag -r is set.
+
 Notepad clone (GUI)
 -------------------
 
