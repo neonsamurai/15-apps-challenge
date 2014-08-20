@@ -91,3 +91,4 @@ Notepad clone (GUI)
 
 SHA256 REST service (Web app)
 -----------------------------
+- It should adhere to the standard requirements of a RESTful service as stated here: http://en.wikipedia.org/wiki/Representational_state_transfer (see: 'Applied to web services')
