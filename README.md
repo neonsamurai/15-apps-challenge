@@ -60,9 +60,34 @@ CP clone (CLI)
 - It should recursively copy files from source to destination if the flag -r is
   set.
 - It should fail copying if source or destination is a file and the flag -r is set.
+- It should provide a summary of its functionality when invoked with the wrong number 
+  of parameters or an unsupported flag.
 
 Notepad clone (GUI)
 -------------------
+
+- It should display a window on startup.
+- It should have a menu bar on the top of the window.
+- It should have a text editing area which takes the rest of the window's space.
+- The text area should resize when the window is resized by the user.
+- The text area should provide scrollbars when the text is larger than the boundaries of the text editing area.
+- It should provide standard text manipulation controls like cursor movement, page up/down, backspace and delete.
+- The menu bar should have a menu named 'File' with menu items 'New...', 'Open...', 'Save' and 'Exit'.
+- The menu bar should have a menu named 'Edit' with menu items 'Copy', 'Cut', 'Paste'.
+- The menu bar should have a menu named 'Help' with the menu item 'About'.
+- It should open a file chooser dialogue when clicking the 'File - Open...' Menu item.
+- It should close the file chooser dialogue and open the file in the text editing area when 
+  clicking 'Open' in the file chooser dialogue.
+- It should empty the text editing area when clicking the 'File - New' menu item.
+- It should save the file to disk when clicking the 'File - Save' menu item. Save it to the file's 
+  location when it is not a new file. Open a file chooser dialogue if the file is new, so that the user 
+  can choose location and name of the file.
+- It should close the application when clicking the 'File - Exit' menu item.
+- It should allow selecting text in the text area either with the mouse or by using the shift key and cursor keys.
+- It should copy selected text to the clipboard when clicking 'Edit - Copy' menu item or pressing CTRL+C.
+- It should delete the selected text from the text editing area and copy it to the clipboard when clicking the 'Edit - Cut' menu item or pressing CTRL+X
+- It should paste text from the clipboard into the text editing area when clicking the 'Edit - Paste' menu item or pressing CTRL+V. The text should be pasted after the cursor position if no text is selected. If text is selected the text should be deleted before pasting.
+- It should provide a short info text about the Challenge and the author of the application when clicking the 'Help - About' menu item.
 
 SHA256 REST service (Web app)
 -----------------------------
